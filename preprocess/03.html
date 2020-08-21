@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="72639404a64c4d4b944b8701db84066e" class="chart-container" style="width:1000px; height:500px;"></div>
+    <script>
+        var chart_72639404a64c4d4b944b8701db84066e = echarts.init(
+            document.getElementById('72639404a64c4d4b944b8701db84066e'), 'white', {renderer: 'canvas'});
+        var option_72639404a64c4d4b944b8701db84066e = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "bar",
+            "name": "train",
+            "data": [
+                196,
+                287,
+                221,
+                67,
+                316,
+                226,
+                315,
+                281,
+                314,
+                314,
+                314,
+                599,
+                248,
+                322,
+                282,
+                335,
+                282,
+                246,
+                276,
+                238,
+                176,
+                531,
+                295,
+                238,
+                260,
+                440,
+                277,
+                439,
+                307,
+                331,
+                261,
+                355,
+                234,
+                261,
+                330,
+                288,
+                210,
+                250,
+                323,
+                356
+            ],
+            "barCategoryGap": "20%",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "val",
+            "data": [
+                46,
+                83,
+                58,
+                18,
+                71,
+                63,
+                80,
+                81,
+                66,
+                75,
+                73,
+                137,
+                83,
+                87,
+                75,
+                84,
+                70,
+                63,
+                86,
+                74,
+                50,
+                126,
+                80,
+                71,
+                58,
+                110,
+                74,
+                97,
+                75,
+                85,
+                60,
+                91,
+                46,
+                61,
+                65,
+                63,
+                55,
+                72,
+                68,
+                81
+            ],
+            "barCategoryGap": "20%",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "train",
+                "val"
+            ],
+            "selected": {
+                "train": true,
+                "val": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "rotate": 30,
+                "margin": 8
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "\u5176\u4ed6\u5783\u573e/\u4e00\u6b21\u6027\u5feb\u9910\u76d2",
+                "\u5176\u4ed6\u5783\u573e/\u6c61\u635f\u5851\u6599",
+                "\u5176\u4ed6\u5783\u573e/\u70df\u8482",
+                "\u5176\u4ed6\u5783\u573e/\u7259\u7b7e",
+                "\u5176\u4ed6\u5783\u573e/\u7834\u788e\u82b1\u76c6\u53ca\u789f\u7897",
+                "\u5176\u4ed6\u5783\u573e/\u7af9\u7b77",
+                "\u53a8\u4f59\u5783\u573e/\u5269\u996d\u5269\u83dc",
+                "\u53a8\u4f59\u5783\u573e/\u5927\u9aa8\u5934",
+                "\u53a8\u4f59\u5783\u573e/\u6c34\u679c\u679c\u76ae",
+                "\u53a8\u4f59\u5783\u573e/\u6c34\u679c\u679c\u8089",
+                "\u53a8\u4f59\u5783\u573e/\u8336\u53f6\u6e23",
+                "\u53a8\u4f59\u5783\u573e/\u83dc\u53f6\u83dc\u6839",
+                "\u53a8\u4f59\u5783\u573e/\u86cb\u58f3",
+                "\u53a8\u4f59\u5783\u573e/\u9c7c\u9aa8",
+                "\u53ef\u56de\u6536\u7269/\u5145\u7535\u5b9d",
+                "\u53ef\u56de\u6536\u7269/\u5305",
+                "\u53ef\u56de\u6536\u7269/\u5316\u5986\u54c1\u74f6",
+                "\u53ef\u56de\u6536\u7269/\u5851\u6599\u73a9\u5177",
+                "\u53ef\u56de\u6536\u7269/\u5851\u6599\u7897\u76c6",
+                "\u53ef\u56de\u6536\u7269/\u5851\u6599\u8863\u67b6",
+                "\u53ef\u56de\u6536\u7269/\u5feb\u9012\u7eb8\u888b",
+                "\u53ef\u56de\u6536\u7269/\u63d2\u5934\u7535\u7ebf",
+                "\u53ef\u56de\u6536\u7269/\u65e7\u8863\u670d",
+                "\u53ef\u56de\u6536\u7269/\u6613\u62c9\u7f50",
+                "\u53ef\u56de\u6536\u7269/\u6795\u5934",
+                "\u53ef\u56de\u6536\u7269/\u6bdb\u7ed2\u73a9\u5177",
+                "\u53ef\u56de\u6536\u7269/\u6d17\u53d1\u6c34\u74f6",
+                "\u53ef\u56de\u6536\u7269/\u73bb\u7483\u676f",
+                "\u53ef\u56de\u6536\u7269/\u76ae\u978b",
+                "\u53ef\u56de\u6536\u7269/\u7827\u677f",
+                "\u53ef\u56de\u6536\u7269/\u7eb8\u677f\u7bb1",
+                "\u53ef\u56de\u6536\u7269/\u8c03\u6599\u74f6",
+                "\u53ef\u56de\u6536\u7269/\u9152\u74f6",
+                "\u53ef\u56de\u6536\u7269/\u91d1\u5c5e\u98df\u54c1\u7f50",
+                "\u53ef\u56de\u6536\u7269/\u9505",
+                "\u53ef\u56de\u6536\u7269/\u98df\u7528\u6cb9\u6876",
+                "\u53ef\u56de\u6536\u7269/\u996e\u6599\u74f6",
+                "\u6709\u5bb3\u5783\u573e/\u5e72\u7535\u6c60",
+                "\u6709\u5bb3\u5783\u573e/\u8f6f\u818f",
+                "\u6709\u5bb3\u5783\u573e/\u8fc7\u671f\u836f\u7269"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "garbage-classify: Train/Val",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_72639404a64c4d4b944b8701db84066e.setOption(option_72639404a64c4d4b944b8701db84066e);
+    </script>
+</body>
+</html>
