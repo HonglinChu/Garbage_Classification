@@ -1,7 +1,4 @@
 ## Description
-You should download data and models from  BaiduYun: https://pan.baidu.com/s/1g9RoIGxf2OD1zo4bgbMQWg password: cdz5 
-
-## Tutorials
 
 1 https://www.bilibili.com/video/BV1gz41187Hk
 
@@ -64,7 +61,10 @@ python ./demo.py
 ```
 ## Train
 ```
+You should download data and models from BaiduYun: https://pan.baidu.com/s/1g9RoIGxf2OD1zo4bgbMQWg password: cdz5
+
 python ./my_train.py
+
 ```
 
 ## Test
