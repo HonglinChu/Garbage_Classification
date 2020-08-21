@@ -64,7 +64,7 @@ python ./app_test.py
 
 ## Experiment
 
-|LR	epoch |	Train  | Loss|	Valid Loss |	Train Acc. |	Valid Acc.|
+|LR	|epoch|Train Loss|	Valid Loss |	Train Acc. |	Valid Acc.|
 |---------|--------|-----|---------|-----------|---------|
 |0.001000|1.000000|0.281912|0.241702|90.296428|91.276075|
 |0.001000|2.000000|0.177333|0.147571|93.530952|94.628832|
