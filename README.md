@@ -1,5 +1,7 @@
 # Garbage_Classification
 
+![image](./img/垃圾分类.png)
+
 ## Description
 
 1 https://www.bilibili.com/video/BV1gz41187Hk
