@@ -41,7 +41,7 @@ def train(args):
         num_workers=args.num_workers,
         shuffle=True)
 
-    val_loader=DataLoader(train_data, 
+    val_loader=DataLoader(val_data, 
         batch_size=args.batch_size,
         num_workers=args.num_workers,
         shuffle=False)  
