@@ -4,19 +4,8 @@
 
 ## Description
 
-1 https://www.bilibili.com/video/BV1gz41187Hk
-
-2 https://www.bilibili.com/video/BV11C4y1p7rT
-
-3 https://www.bilibili.com/video/BV1b64y1T7T9
-
-4 https://www.bilibili.com/video/BV1sC4y1x7Pc
-
-5 https://www.bilibili.com/video/BV1SC4y1p7F2
-
-6 https://www.bilibili.com/video/BV1ZC4y1s7N2
-
-7 https://www.bilibili.com/video/BV1MT4y1V74w
+[1]https://www.bilibili.com/video/BV1gz41187Hk
+[2]https://www.bilibili.com/video/BV1MT4y1V74w
 
 We also provide [PyTorch code](https://github.com/HonglinChu/NanoCls) for deployment on mobile device.
 
