@@ -18,6 +18,8 @@
 
 7 https://www.bilibili.com/video/BV1MT4y1V74w
 
+We also provide [PyTorch code](https://github.com/HonglinChu/NanoCls) for deployment on mobile device.
+
 ## Tree
 ```
 .
