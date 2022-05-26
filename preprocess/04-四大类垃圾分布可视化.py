@@ -105,7 +105,8 @@ y=list(y)
 #初始化
 bar=Bar(init_opts=opts.InitOpts(width='1100px',height='500px'))
 bar.add_xaxis(xaxis_data=x)
-bar.add_yaxis(series_name='',yaxis_data=y)
+# yaxis_data ---> y_axis
+bar.add_yaxis(series_name='',y_axis=y)
 #设置全局变量
 bar.set_global_opts(
     title_opts=opts.TitleOpts(title='垃圾分类-不同类别的数据分布'),        #增加标题
