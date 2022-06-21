@@ -52,7 +52,7 @@ print(max_v,index)
 #（7） output name
 import codecs
 ImageNet1k_label_dict={}
-for line in codecs.open('./data/ImageNet1k_label.txt','r'):
+for line in codecs.open('./data/ImageNet1k_label.txt','r',encoding='utf-8'):
 
     line=line.strip()
    # print(line)

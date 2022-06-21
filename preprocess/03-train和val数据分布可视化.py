@@ -80,8 +80,9 @@ bar.set_global_opts(
     )
 
 bar.add_xaxis(xaxis_data=x)
-bar.add_yaxis(series_name='train',yaxis_data=y_train)
-bar.add_yaxis(series_name='val',yaxis_data=y_val)
+# yaxis_data ---> y_axis
+bar.add_yaxis(series_name='train',y_axis=y_train)
+bar.add_yaxis(series_name='val',y_axis=y_val)
 
 #保存
 bar.render('./preprocess/03.html')

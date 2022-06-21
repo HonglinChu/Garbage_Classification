@@ -1,3 +1,11 @@
+'''
+Descripttion: 
+version: 
+Author: Leanne
+Date: 2022-05-26 15:45:47
+LastEditors: Leanne
+LastEditTime: 2022-05-26 16:08:15
+'''
 
 import torch
 
@@ -22,7 +30,7 @@ def transforms_image(img_bytes):
 #(2) Get Imagenet1k_label
 import codecs
 ImageNet1k_label_dict={}
-for line in codecs.open('./data/ImageNet1k_label.txt','r'):
+for line in codecs.open('./data/ImageNet1k_label.txt','r',encoding='utf-8'):
 
     line=line.strip()
    # print(line)
